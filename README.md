@@ -1,3 +1,17 @@
+# --- 1. Подготовка локальной среды ---
+
+# Выберите имя для вашего проекта (например, enhanced-repo-setup)
+PROJECT_NAME="enhanced-repo-setup" 
+
+# Создание и переход в новую директорию
+mkdir $PROJECT_NAME
+cd $PROJECT_NAME
+
+# Инициализация Git
+git init
+
+# --- 2. Добавление основных файлов для улучшения качества репозитория ---
+
 # Создание README.md
 echo "# $PROJECT_NAME" > README.md
 echo "" >> README.md
@@ -20,6 +34,7 @@ echo "" >> LICENSE
 echo "Copyright (c) 2025 <ВАШЕ_ИМЯ_ПОЛЬЗОВАТЕЛЯ>" >> LICENSE
 # (В реальном проекте здесь нужно добавить полный текст выбранной лицензии)
 
+# --- 3. Коммит и отправка на GitHub ---
 
 # Добавление всех трех файлов к следующему коммиту
 git add README.md .gitignore LICENSE
