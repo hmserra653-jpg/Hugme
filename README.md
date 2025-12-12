@@ -1,15 +1,3 @@
-# --- 1. Подготовка локальной среды ---
-
-# Выберите имя для вашего проекта (например, enhanced-repo-setup)
-PROJECT_NAME="enhanced-repo-setup" 
-
-# Создание и переход в новую директорию
-mkdir $PROJECT_NAME
-cd $PROJECT_NAME
-
-# Инициализация Git
-git init
-
 # Создание README.md
 echo "# $PROJECT_NAME" > README.md
 echo "" >> README.md
